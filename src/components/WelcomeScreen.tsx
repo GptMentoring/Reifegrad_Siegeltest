@@ -153,6 +153,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                    <Star className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
                  <div> <h3 className="font-medium text-base mb-0.5">3. Auszeichnung</h3> <p className="text-xs text-gray-600">Bei einem positiven Ergebnis erhalten Sie die Möglichkeit, Ihr persönliches „KI-Pionier" Siegel zu erwerben.</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">3. Auszeichnung</h3> <p className="text-xs text-gray-600">Bei einem positiven Ergebnis erhalten Sie die Möglichkeit, Ihr persönliches „KI-Pionier" Siegel zu lizenzieren.</p> </div>
                </div>
              </div>
            </section>
