@@ -61,7 +61,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
 
       {
         id: "1.7",
-        text: "Welche konkreten Aufgaben oder Prozesse könnten durch gezielten Kompetenzaufbau am schnellsten verbessert werden?",
+        text: "(Optional) Welche gezielten Kompetenzen wurden zum Einsatz von generativer KI im unternehmen aufgebaut?",
         isMultiline: true,
         placeholder: "Beschreiben Sie die Prozesse, die am meisten von verbesserter KI-Kompetenz profitieren würden..."
       }
