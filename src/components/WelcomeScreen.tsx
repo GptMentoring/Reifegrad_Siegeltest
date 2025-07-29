@@ -123,7 +123,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
           <img 
             src="/PionierLogo.webp" 
             alt="KI-Pionier Logo" 
-            className="h-20 sm:h-24 lg:h-28 w-auto"
+            className="h-20 sm:h-20 lg:h-28 w-auto"
           />
         </div>
       </div>
