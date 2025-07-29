@@ -64,6 +64,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         text: "(Optional) Welche gezielten Kompetenzen wurden zum Einsatz von generativer KI im unternehmen aufgebaut?",
         isMultiline: true,
         placeholder: "Beschreiben Sie die Prozesse, die am meisten von verbesserter KI-Kompetenz profitieren würden..."
+        optional: true
       }
     ]
   },
