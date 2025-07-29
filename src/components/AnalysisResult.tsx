@@ -136,8 +136,8 @@ export function AnalysisResult({ onRestart, onEditAnswers, widgetConfig, answers
                       </h1>
                     </div>
                     <p className="text-gray-600 text-sm sm:text-base lg:text-lg">
-                      Diese Analyse bietet Ihnen eine detaillierte Momentaufnahme Ihres aktuellen KI-Reifegrads. 
-                      Sie zeigt auf, wo Sie bereits stark sind und wo noch Entwicklungspotenzial besteht.
+                     Innerhalb von 5 Werktagen melden wir uns mit dem Resultat unserer internen Prüfung bei Ihnen und informieren Sie, 
+                     ob Ihr Unternehmen als KI-Pionier ausgezeichnet wird.
                     </p>
                   </div>
                 </div>
