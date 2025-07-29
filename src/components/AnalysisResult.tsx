@@ -199,8 +199,9 @@ const welcomeContent = getWelcomeContent();
         
         {/* Detailed Analysis */}
         {/* Consultation CTA Banner */}
+
         <ConsultationCTA widgetConfig={widgetConfig} />
-        
+
         <AnalysisCharts 
           answers={answers}
           widgetConfig={widgetConfig}
