@@ -298,7 +298,7 @@ export function QuestionDisplay({
               />
             )}
 
-            {textInput.trim() && (
+            {textInput.trim() || question.optional && (
               <button
                 onClick={handleTextSubmit}
                 className="w-full mt-4 p-4 rounded-xl text-white font-medium
