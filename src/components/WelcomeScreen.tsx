@@ -180,7 +180,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                 Bereit für Ihre KI-Pionier Qualifikation?
               </h3>
               <p className="text-sm text-gray-600 mb-4">
-                Springen Sie direkt zum Anmeldeformular und qualifizieren Sie sich in 30 Sekunden für das Siegel
+                Springen Sie direkt zum Anmeldeformular und qualifizieren Sie sich in 10-15 Minuten für das Siegel
               </p>
               <button
                 onClick={() => {
