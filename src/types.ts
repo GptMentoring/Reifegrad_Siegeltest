@@ -26,6 +26,7 @@ export interface Question {
   multiSelect?: boolean;
   isMultiline?: boolean;
   placeholder?: string;
+  optional?: boolean;
 }
 
 export interface Message {
