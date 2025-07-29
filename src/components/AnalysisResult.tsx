@@ -200,7 +200,9 @@ const welcomeContent = getWelcomeContent();
         {/* Detailed Analysis */}
         {/* Consultation CTA Banner */}
 
-        <ConsultationCTA widgetConfig={widgetConfig} />
+        {overallLevel.score > 3.5 && (
+          <ConsultationCTA widgetConfig={widgetConfig} />
+        )}
 
         <AnalysisCharts 
           answers={answers}
