@@ -162,7 +162,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         text: "Ressourcenallokation: Inwieweit werden die für KI-Initiativen notwendigen Ressourcen systematisch geplant und adäquat bereitgestellt?",
         options: ["1", "2", "3", "4", "5"]
       },
-      {
+/*      {
         id: "3.6",
         text: "Was ist die größte Herausforderung bei der Umsetzung und Steuerung von KI-Projekten bei Ihnen?",
         multiSelect: true,
@@ -174,8 +174,9 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "e) Mangelnde Ressourcen (Zeit, Budget, Fachwissen) für die Umsetzung"
         ]
       },
+*/
       {
-        id: "3.7",
+        id: "3.6",
         text: "Wie werden Entscheidungen über den Start neuer KI-Projekte oder die Einführung neuer Tools typischerweise getroffen?",
         multiSelect: true,
         options: [
@@ -187,10 +188,11 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         ]
       },
       {
-        id: "3.8",
-        text: "Wenn Sie EINE Sache zur Verbesserung der Steuerung von KI-Aktivitäten sofort ändern könnten, welche wäre das und warum?",
+        id: "3.7",
+        text: "(Optional) Nennen Sie EINE Sache, die zur Verbesserung der Steuerung von KI-Aktivitäten bei Ihnen im Unternehmen umgesetzt wurde:",
         isMultiline: true,
-        placeholder: "Beschreiben Sie die wichtigste Veränderung für bessere KI-Steuerung..."
+        placeholder: "Beschreiben Sie...",
+        optional: true
       }
     ]
   },
