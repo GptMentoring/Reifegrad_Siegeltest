@@ -89,34 +89,30 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
 
 
   return (
-    <div className="flex flex-col h-full bg-gray-50">
-      {/* Hero Section */}
-      <div
-        className="w-full p-6 text-white text-center relative overflow-hidden shadow-md"
-        style={{ background: `linear-gradient(135deg, ${widgetConfig.primaryColor}, ${widgetConfig.primaryColor}E6)` }}
-      >
-        <div className="absolute top-0 left-0 w-full h-full opacity-5 z-0"> {/* Hintergrund-Bubbles */} </div>
-        <div className="relative z-10 max-w-4xl mx-auto">
-          {/* Header with Logo and Title in white container */}
-          <div className="bg-white rounded-xl p-3 sm:p-6 shadow-lg mb-4">
-            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left">
-              <img 
-                src="/2ba logo.png" 
-                alt="2bAHEAD - Tomorrowning your business" 
-                className="h-12 sm:h-16 w-auto flex-shrink-0"
-              />
-              <div className="flex-grow">
-                <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight" style={{ color: widgetConfig.primaryColor }}>
-                  KI-Pionier: Siegel
-                </h1>
-                <p className="text-gray-600 text-sm sm:text-base lg:text-lg mt-1">
-                  Lassen Sie Ihre KI-Kompetenz auszeichnen
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+   <div className="bg-white rounded-xl p-3 sm:p-6 shadow-lg mb-4">
+  <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6 text-center sm:text-left">
+    <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left flex-grow">
+      <img 
+        src="/2ba logo.png" 
+        alt="2bAHEAD - Tomorrowning your business" 
+        className="h-12 sm:h-16 w-auto flex-shrink-0"
+      />
+      <div>
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight" style={{ color: widgetConfig.primaryColor }}>
+          KI-Pionier: Siegel
+        </h1>
+        <p className="text-gray-600 text-sm sm:text-base lg:text-lg mt-1">
+          Lassen Sie Ihre KI-Kompetenz auszeichnen
+        </p>
       </div>
+    </div>
+    <img 
+      src="/PionierLogo.webp" 
+      alt="KI-Pionier Siegel" 
+      className="h-16 sm:h-20 lg:h-24 w-auto hidden sm:block"
+    />
+  </div>
+</div>
 
       {/* Main content */}
       <div className="flex-grow p-4 overflow-y-auto">
