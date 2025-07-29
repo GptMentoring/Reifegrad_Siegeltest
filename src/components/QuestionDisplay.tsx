@@ -115,7 +115,7 @@ export function QuestionDisplay({
 
   // Handle text input submission
   const handleTextSubmit = () => {
-    if (textInput.trim()) {
+    if (textInput.trim() || question.optional) {
       onAnswer(textInput);
       if (textareaRef.current) {
         textareaRef.current.classList.add('scale-[0.98]');
