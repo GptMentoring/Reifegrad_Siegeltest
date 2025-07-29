@@ -4,7 +4,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
   {
     id: 1,
     title: "Kompetenz aufbauen",
-    description: "Hier bewerten wir das vorhandene Wissen und die Lernkultur bezüglich KI in Ihrem Unternehmen / Ihrer Tätigkeit. Ohne fundierte Kompetenz ist es schwer, das Potenzial von KI voll auszuschöpfen und kostspielige Fehlversuche zu vermeiden.",
+    description: "Hier bewerten wir das vorhandene Wissen und die Lernkultur bezüglich KI in Ihrem Unternehmen / Ihrer Tätigkeit.",
     questions: [
       {
         id: "1.1",
