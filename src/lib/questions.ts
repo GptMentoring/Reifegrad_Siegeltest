@@ -31,6 +31,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         text: "Interner Wissensaustausch: Wie etabliert und effektiv sind interne Mechanismen für den Austausch von KI-Wissen und -Erfahrungen?",
         options: ["1", "2", "3", "4", "5"]
       },
+      
 /*      {
         id: "1.6",
         text: "Was ist die größte Hürde beim Aufbau von KI-Kompetenz in Ihrem Umfeld?",
