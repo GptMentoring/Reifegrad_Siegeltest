@@ -135,7 +135,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
   {
     id: 3,
     title: "Struktur und Steuerung etablieren",
-    description: "Eine erfolgreiche KI-Integration benötigt klare Verantwortlichkeiten, messbare Ziele und eine aktive Steuerung durch die Führungsebene. Ohne dies bleiben KI-Initiativen oft unverbindlich und ohne messbaren Erfolg.",
+    description: "Eine erfolgreiche KI-Integration benötigt klare Verantwortlichkeiten, messbare Ziele und eine aktive Steuerung durch die Führungsebene.",
     questions: [
       {
         id: "3.1",
