@@ -31,7 +31,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         text: "Interner Wissensaustausch: Wie etabliert und effektiv sind interne Mechanismen für den Austausch von KI-Wissen und -Erfahrungen?",
         options: ["1", "2", "3", "4", "5"]
       },
-      {
+/*      {
         id: "1.6",
         text: "Was ist die größte Hürde beim Aufbau von KI-Kompetenz in Ihrem Umfeld?",
         multiSelect: true,
@@ -43,9 +43,10 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "e) Fehlende strategische Priorisierung durch die Führungsebene"
         ]
       },
+*/
       
-/* {
-        id: "1.7",
+ {
+        id: "1.6",
         text: "Wie wird KI-Wissen aktuell hauptsächlich erworben und geteilt?",
         multiSelect: true,
         options: [
@@ -56,7 +57,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "e) Es gibt keinen systematischen Ansatz zum Wissenserwerb/-teilung"
         ]
       }, 
-*/
+
       {
         id: "1.7",
         text: "Welche konkreten Aufgaben oder Prozesse könnten durch gezielten Kompetenzaufbau am schnellsten verbessert werden?",
