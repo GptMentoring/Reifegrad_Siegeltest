@@ -111,12 +111,12 @@ export function AnalysisResult({ onRestart, onEditAnswers, widgetConfig, answers
   const getWelcomeContent = () => {
     if (overallLevel.score > 3.5) {
       return {
-        title: "Herzlichen Glückwunsch! Sie haben sich als „KI-Pionier\" qualifiziert!",
+        title: "Herzlichen Glückwunsch! Sie haben sich als \"KI-Pionier\" qualifiziert!",
         description: "Innerhalb von 5 Werktagen melden wir uns mit dem Resultat unserer internen Prüfung bei Ihnen und informieren Sie, ob Ihr Unternehmen als KI-Pionier ausgezeichnet wird. `In der Zwischenzeit, zeigt unsere kostenfreie Analyse Ihnen, wo Sie bereits stark sind und wo noch Entwicklungspotenzial besteht"
       };
     } else {
       return {
-        title: "Willkommen zu Ihrer KI-Reifegrad Analyse",
+        title: "Leider sind Sie noch nicht qualifiziert für den \"KI-Pionier\"",
         description: "Diese Analyse bietet Ihnen eine detaillierte Momentaufnahme Ihres aktuellen KI-Reifegrads. Sie zeigt auf, wo Sie bereits stark sind und wo noch Entwicklungspotenzial      besteht."
       };
     }
