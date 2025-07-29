@@ -107,7 +107,7 @@ export function ConsultationCTA({ widgetConfig }: ConsultationCTAProps) {
           </div>
           <p className="text-gray-700">
             <strong>Erhalten Sie zusätzlich einen ausführlichen, personalisierten KI-Strategiebericht</strong> 
-            (Wert: 297€) kostenlos zu Ihrem Strategiegespräch dazu. Dieser detaillierte Report 
+             (Wert: 297€) kostenlos zu Ihrem Strategiegespräch dazu. Dieser detaillierte Report 
             baut auf Ihrer Analyse auf und enthält spezifische Handlungsempfehlungen für Ihr Unternehmen.
           </p>
         </div>
