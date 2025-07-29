@@ -73,7 +73,7 @@ export function ConsultationCTA({ widgetConfig }: ConsultationCTAProps) {
               <div className="flex-grow">
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-4 mb-2">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-bold" style={{ color: widgetConfig.primaryColor }}>
-                    Jetzt persönliches Strategiegespräch vereinbaren
+                    Jetzt persönliches Strategiegespräch vereinbaren & "KI-Pionier" werden
                   </h3>
                   <div className="block sm:hidden lg:block">
                     <img 
