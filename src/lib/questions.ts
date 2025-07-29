@@ -71,7 +71,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
   {
     id: 2,
     title: "Tools gezielt einsetzen",
-    description: "Hier geht es darum, wie KI-Tools ausgewählt und implementiert werden. Ein planloses Testen führt oft zu Frustration und verschwendeten Ressourcen, während ein gezielter Ansatz echten Mehrwert schafft.",
+    description: "Hier geht es darum, wie KI-Tools ausgewählt und implementiert werden.",
     questions: [
       {
         id: "2.1",
