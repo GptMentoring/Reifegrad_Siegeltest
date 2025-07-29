@@ -129,7 +129,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
       </div>
     </div>
   </div>
-</div>
+
 
       {/* Main content */}
       <div className="flex-grow p-4 overflow-y-auto">
