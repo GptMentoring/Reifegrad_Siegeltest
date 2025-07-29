@@ -117,7 +117,7 @@ export function AnalysisResult({ onRestart, onEditAnswers, widgetConfig, answers
     } else {
       return {
         title: "Leider sind Sie noch nicht qualifiziert für den \"KI-Pionier\"",
-        description: "Diese Analyse bietet Ihnen eine detaillierte Momentaufnahme Ihres aktuellen KI-Reifegrads. Sie zeigt auf, wo Sie bereits stark sind und wo noch Entwicklungspotenzial      besteht."
+        description: "Unsere kostenfreie Analyse zeigt Ihnen, wo Sie bereits stark sind und wo noch Entwicklungspotenzial besteht, um zum \"KI-Pionier\ zu werden."
       };
     }
   };
