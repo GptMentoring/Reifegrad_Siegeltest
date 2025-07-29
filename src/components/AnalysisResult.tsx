@@ -132,7 +132,7 @@ export function AnalysisResult({ onRestart, onEditAnswers, widgetConfig, answers
                     <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 mb-2">
                       <Brain className="w-6 h-6" style={{ color: widgetConfig.primaryColor }} />
                       <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold" style={{ color: widgetConfig.primaryColor }}>
-                        Willkommen zu Ihrer KI-Reifegrad Analyse
+                        Herzlichen Glückwunsch! Sie haben sich als „KI-Pionier“ qualifiziert!
                       </h1>
                     </div>
                     <p className="text-gray-600 text-sm sm:text-base lg:text-lg">
