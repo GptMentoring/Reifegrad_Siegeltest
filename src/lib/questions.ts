@@ -63,7 +63,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         id: "1.7",
         text: "(Optional) Welche gezielten Kompetenzen wurden zum Einsatz von generativer KI im unternehmen aufgebaut?",
         isMultiline: true,
-        placeholder: "Beschreiben Sie die Prozesse, die am meisten von verbesserter KI-Kompetenz profitieren würden...",
+        placeholder: "Beschreiben Sie...",
         optional: true
       }
     ]
@@ -125,9 +125,9 @@ export const PRESS_RELEASE_STEPS: Step[] = [
       },
       {
         id: "2.7",
-        text: "Welcher spezifische, wiederkehrende und zeitaufwändige Prozess könnte Ihrer Meinung nach am dringendsten von einem passenden KI-Tool profitieren?",
+        text: "(Optional) Welcher zeitaufwändige Prozess wurde durch den Einsatz eines passenden KI-Tool bei Ihnen im Unternehmen automatisiert?",
         isMultiline: true,
-        placeholder: "Beschreiben Sie den Prozess und den erwarteten Nutzen durch KI-Unterstützung..."
+        placeholder: "Beschreiben Sie..."
       }
     ]
   },
