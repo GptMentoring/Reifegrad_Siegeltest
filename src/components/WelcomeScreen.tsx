@@ -138,7 +138,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
                    <ClipboardList className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
-                 <div> <h3 className="font-medium text-base mb-0.5">1. Fragebogen</h3> <p className="text-xs text-gray-600">Gezielte Fragen zu 5 KI-Säulen beantworten (ca. 20-30 Min.) mit anschließender Sofort-Übersicht und Analyse Ihres Standes.</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">1. Fragebogen</h3> <p className="text-xs text-gray-600">Gezielte Fragen zu 5 KI-Säulen beantworten (ca. 10-15 Min.) mit anschließender Sofort-Übersicht und Analyse Ihres Standes.</p> </div>
                </div>
                 {/* Schritt 2 */}
                <div className="flex items-start gap-2">
@@ -152,7 +152,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
                    <Star className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
-                 <div> <h3 className="font-medium text-base mb-0.5">3. Auszeichnung</h3> <p className="text-xs text-gray-600">Bei einem positiven Ergebnis erhalten Sie die Möglichkeit, Ihr persönliches „KI-Pionier" Siegel zu erwerben.</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">3. Auszeichnung</h3> <p className="text-xs text-gray-600">Bei einem positiven Ergebnis erhalten Sie die Möglichkeit, Ihr persönliches „KI-Pionier" Siegel zu lizenzieren.</p> </div>
                </div>
              </div>
            </section>
