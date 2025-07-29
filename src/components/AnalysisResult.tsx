@@ -138,8 +138,7 @@ export function AnalysisResult({ onRestart, onEditAnswers, widgetConfig, answers
                     <p className="text-gray-600 text-sm sm:text-base lg:text-lg">
                      Innerhalb von 5 Werktagen melden wir uns mit dem Resultat unserer internen Prüfung bei Ihnen und informieren Sie, 
                      ob Ihr Unternehmen als KI-Pionier ausgezeichnet wird.
-                      
-                     In der Zwischenzeit, zeigt unsere kostenfreie Analyse Ihnen, 
+                     /n In der Zwischenzeit, zeigt unsere kostenfreie Analyse Ihnen, 
                      wo Sie bereits stark sind und wo noch Entwicklungspotenzial besteht
                     </p>
                   </div>
