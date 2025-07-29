@@ -158,7 +158,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
                    <Settings className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
-                 <div> <h3 className="font-medium text-base mb-0.5">2. Interne Überprüfung</h3> <p className="text-xs text-gray-600">Wir prüfen Ihre Selbstauskunft intern durch unabhängige Experten & Tools und informieren Sie innerhalb von 3 Tagen über das Ergebnis.</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">2. Interne Überprüfung</h3> <p className="text-xs text-gray-600">Wir prüfen Ihre Selbstauskunft intern durch unsere Experten & Tools und informieren Sie innerhalb von 3 Tagen über das Ergebnis.</p> </div>
                </div>
                {/* Schritt 3 */}
                <div className="flex items-start gap-2">
