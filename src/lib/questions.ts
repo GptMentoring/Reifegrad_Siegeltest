@@ -98,7 +98,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         text: "Performance-Messung & Optimierung: Wie konsequent wird der Nutzen und die Performance der eingesetzten KI-Tools gemessen und werden die Tools/Prozesse darauf basierend regelmäßig optimiert?",
         options: ["1", "2", "3", "4", "5"]
       },
-      {
+/*      {
         id: "2.6",
         text: "Falls Sie bereits KI-Tools nutzen: Was ist der häufigste Grund für suboptimale Ergebnisse oder Frustration?",
         multiSelect: true,
@@ -110,6 +110,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "e) Wir nutzen KI-Tools bisher zu wenig / zu unsystematisch, um dies bewerten zu können"
         ]
       },
+*/
       {
         id: "2.7",
         text: "Welcher Ansatz beschreibt am besten, wie neue KI-Tools identifiziert und ausgewählt werden?",
