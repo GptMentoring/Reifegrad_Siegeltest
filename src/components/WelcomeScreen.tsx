@@ -121,7 +121,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
 
           {/* Rechter Teil: Zusätzliche Bild */}
           <img 
-            src="/PionierLogo. " 
+            src="/PionierSiegel.png" 
             alt="KI-Pionier Logo" 
             className="h-20 sm:h-20 lg:h-24 w-auto"
           />
