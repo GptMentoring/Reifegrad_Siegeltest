@@ -119,7 +119,7 @@ export function AnalysisResult({ onRestart, onEditAnswers, widgetConfig, answers
       title: "Willkommen zu Ihrer KI-Reifegrad Analyse",
       description: "Diese Analyse bietet Ihnen eine detaillierte Momentaufnahme Ihres aktuellen KI-Reifegrads. Sie zeigt auf, wo Sie bereits stark sind und wo noch Entwicklungspotenzial besteht."
     };
-  };
+  }
 
 const welcomeContent = getWelcomeContent();
 
