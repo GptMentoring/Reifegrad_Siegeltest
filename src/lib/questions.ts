@@ -112,7 +112,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
       },
 */
       {
-        id: "2.7",
+        id: "2.6",
         text: "Welcher Ansatz beschreibt am besten, wie neue KI-Tools identifiziert und ausgewählt werden?",
         multiSelect: true,
         options: [
@@ -124,7 +124,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         ]
       },
       {
-        id: "2.8",
+        id: "2.7",
         text: "Welcher spezifische, wiederkehrende und zeitaufwändige Prozess könnte Ihrer Meinung nach am dringendsten von einem passenden KI-Tool profitieren?",
         isMultiline: true,
         placeholder: "Beschreiben Sie den Prozess und den erwarteten Nutzen durch KI-Unterstützung..."
