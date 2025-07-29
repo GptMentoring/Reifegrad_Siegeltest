@@ -198,14 +198,16 @@ const welcomeContent = getWelcomeContent();
         </div>
         
         {/* Detailed Analysis */}
+        {/* Consultation CTA Banner */}
+        <ConsultationCTA widgetConfig={widgetConfig} />
+        
         <AnalysisCharts 
           answers={answers}
           widgetConfig={widgetConfig}
           cachedFocusAreas={cachedAnalysis}
         />
         
-        {/* Consultation CTA Banner */}
-        <ConsultationCTA widgetConfig={widgetConfig} />
+        
       </div>
     </div>
   );
