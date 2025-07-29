@@ -226,7 +226,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         text: "Strategische Priorität: Welche strategische Priorität hat die Entwicklung eigener KI-basierter Lösungen oder Produkte in Ihrem Unternehmen / Ihrer Tätigkeit aktuell?",
         options: ["1", "2", "3", "4", "5"]
       },
-      {
+/*      {
         id: "4.6",
         text: "Welchen primären strategischen Nutzen würde die Entwicklung einer eigenen KI-Lösung für Sie bringen?",
         multiSelect: true,
@@ -250,8 +250,9 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "e) Fehlende klare Idee oder Vision für eine konkrete Anwendung"
         ]
       },
+*/
       {
-        id: "4.8",
+        id: "4.6",
         text: "Beschreiben Sie kurz eine Idee für eine eigene KI-Anwendung, die auf Ihrem spezifischen Wissen oder Ihren Daten aufbauen könnte und einen echten Mehrwert schaffen würde.",
         isMultiline: true,
         placeholder: "Beschreiben Sie Ihre Idee für eine eigene KI-Anwendung..."
