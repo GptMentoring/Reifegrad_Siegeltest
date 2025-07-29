@@ -43,7 +43,8 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "e) Fehlende strategische Priorisierung durch die Führungsebene"
         ]
       },
-      {
+      
+{/* {
         id: "1.7",
         text: "Wie wird KI-Wissen aktuell hauptsächlich erworben und geteilt?",
         multiSelect: true,
@@ -54,7 +55,8 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "d) Durch strukturierte, begleitete Lernformate",
           "e) Es gibt keinen systematischen Ansatz zum Wissenserwerb/-teilung"
         ]
-      },
+      }, 
+*/}
       {
         id: "1.8",
         text: "Welche konkreten Aufgaben oder Prozesse könnten durch gezielten Kompetenzaufbau am schnellsten verbessert werden?",
