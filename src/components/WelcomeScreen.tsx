@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import {
-  Bot, ClipboardList, PieChart, Send, // Icons für "So funktioniert's"
+  Bot, ClipboardList, Settings, Star, // Icons für "So funktioniert's"
   Info, Target, AlertTriangle as AlertTriangleIcon, CheckSquare, // Icons für "Warum sinnvoll"
   Gauge, Radar, Flag, Brain, ListChecks, // Icons für "Ergebnis im Detail"
   ArrowRight, Mail, User, Building, Users // Icon für Button und Email
@@ -107,10 +107,10 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
               />
               <div className="flex-grow">
                 <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight" style={{ color: widgetConfig.primaryColor }}>
-                  {widgetConfig.name || 'KI-Reifegrad Analyse'}
+                  KI-Pionier: Siegel
                 </h1>
                 <p className="text-gray-600 text-sm sm:text-base lg:text-lg mt-1">
-                  Ihre individuelle Einschätzung
+                  Lassen Sie Ihre KI-Kompetenz auszeichnen
                 </p>
               </div>
             </div>
@@ -123,11 +123,11 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
         <div className="max-w-3xl mx-auto space-y-8">
 
           {/* Welcome message */}
-          {widgetConfig.welcomeMessage && (
-            <div className="text-center text-sm sm:text-base text-gray-700">
-              <ReactMarkdown components={{ /* ... */ }}>{widgetConfig.welcomeMessage}</ReactMarkdown>
-            </div>
-          )}
+          <div className="text-center text-sm sm:text-base text-gray-700 mb-6">
+            <p>
+              Werden Sie ein KI-Vorreiter mit unserem Siegel. Diese Analyse ist der erste Schritt, um sich für die Auszeichnung zu qualifizieren.
+            </p>
+          </div>
 
           {/* "So funktioniert's" Section */}
           <section className="p-4 bg-white rounded-lg border border-gray-100 shadow-sm">
@@ -138,21 +138,21 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
                    <ClipboardList className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
-                 <div> <h3 className="font-medium text-base mb-0.5">1. Fragebogen</h3> <p className="text-xs text-gray-600">Gezielte Fragen zu 5 KI-Säulen beantworten (ca. 20-30 Min.).</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">1. Fragebogen</h3> <p className="text-xs text-gray-600">Gezielte Fragen zu 5 KI-Säulen beantworten (ca. 20-30 Min.) mit anschließender Sofort-Übersicht und Analyse Ihres Standes.</p> </div>
                </div>
                 {/* Schritt 2 */}
                <div className="flex items-start gap-2">
                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
-                   <PieChart className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
+                   <Settings className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
-                 <div> <h3 className="font-medium text-base mb-0.5">2. Sofort-Übersicht</h3> <p className="text-xs text-gray-600">Gesamtscore, Pentagon-Profil & Top 3 Handlungsfelder direkt sehen.</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">2. Interne Überprüfung</h3> <p className="text-xs text-gray-600">Wir prüfen Ihre Selbstauskunft mit unseren eigenen Tools und informieren Sie innerhalb von 3 Tagen über das Ergebnis.</p> </div>
                </div>
                {/* Schritt 3 */}
                <div className="flex items-start gap-2">
                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
-                   <Send className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
+                   <Star className="w-4 h-4" style={{ color: widgetConfig.primaryColor }} />
                  </div>
-                 <div> <h3 className="font-medium text-base mb-0.5">3. Detail-Report</h3> <p className="text-xs text-gray-600">Persönlicher PDF-Bericht mit KI-Analyse & Empfehlungen per E-Mail.</p> </div>
+                 <div> <h3 className="font-medium text-base mb-0.5">3. Auszeichnung</h3> <p className="text-xs text-gray-600">Bei einem positiven Ergebnis erhalten Sie die Möglichkeit, Ihr persönliches „KI-Pionier" Siegel zu erwerben.</p> </div>
                </div>
              </div>
            </section>
@@ -177,10 +177,10 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                 ></div>
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2" style={{ color: widgetConfig.primaryColor }}>
-                Bereit für Ihre KI-Analyse?
+                Bereit für Ihre KI-Pionier Qualifikation?
               </h3>
               <p className="text-sm text-gray-600 mb-4">
-                Springen Sie direkt zum Anmeldeformular und starten Sie in 30 Sekunden
+                Springen Sie direkt zum Anmeldeformular und qualifizieren Sie sich in 30 Sekunden für das Siegel
               </p>
               <button
                 onClick={() => {
@@ -195,7 +195,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
                 style={{ backgroundColor: widgetConfig.primaryColor, ringColor: widgetConfig.primaryColor }}
               >
                 <ArrowRight className="w-4 h-4" />
-                Analyse jetzt beginnen
+                KI-Pionier Analyse jetzt beginnen
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -203,29 +203,54 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
 
            {/* "Warum diese Analyse jetzt sinnvoll ist" Section */}
            <section className="p-4 bg-white rounded-lg border border-gray-100 shadow-sm">
-             <h2 className="text-lg sm:text-xl font-bold mb-4 text-center">Ihr Nutzen:</h2>
-             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-               {whyPoints.map((point, index) => (
-                 <div key={index} className="flex items-start gap-2">
-                   <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
-                     <point.icon className="w-3.5 h-3.5" style={{ color: widgetConfig.primaryColor }} />
-                   </div>
-                   <div> <h4 className="font-semibold text-sm">{point.title}</h4> <p className="text-xs text-gray-600">{point.description}</p> </div>
+             <h2 className="text-lg sm:text-xl font-bold mb-4 text-center">Ihr Nutzen als Siegelträger:</h2>
+             <div className="space-y-3">
+               <div className="flex items-start gap-2">
+                 <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
+                   <span className="text-xs font-bold" style={{ color: widgetConfig.primaryColor }}>1</span>
                  </div>
-               ))}
+                 <p className="text-sm text-gray-700">Präsentation des Siegels für Ihre Außenkommunikation</p>
+               </div>
+               <div className="flex items-start gap-2">
+                 <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
+                   <span className="text-xs font-bold" style={{ color: widgetConfig.primaryColor }}>2</span>
+                 </div>
+                 <p className="text-sm text-gray-700">Feierliche Überreichung des Siegels durch Sven Gabor Janszky an unserem Zukunftstag</p>
+               </div>
+               <div className="flex items-start gap-2">
+                 <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
+                   <span className="text-xs font-bold" style={{ color: widgetConfig.primaryColor }}>3</span>
+                 </div>
+                 <p className="text-sm text-gray-700">Kostenloses Strategiegespräch mit den Experten des 2b AHEAD ThinkTank</p>
+               </div>
+               <div className="flex items-start gap-2">
+                 <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
+                   <span className="text-xs font-bold" style={{ color: widgetConfig.primaryColor }}>4</span>
+                 </div>
+                 <p className="text-sm text-gray-700">2x Freiticket zu unserem Zukunftskongress für Siegelträger (im Wert von 998€)</p>
+               </div>
+               <div className="flex items-start gap-2">
+                 <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${widgetConfig.primaryColor}1A` }}>
+                   <span className="text-xs font-bold" style={{ color: widgetConfig.primaryColor }}>5</span>
+                 </div>
+                 <p className="text-sm text-gray-700">Beitritt zu unserer exklusiven Community von innovativen und zukunftsführenden Unternehmen</p>
+               </div>
              </div>
            </section>
 
-            {/* "Ihr Analyse-Ergebnis im Detail" Section */}
+           {/* "Warum überhaupt ein Siegel" Section */}
            <section className="p-4 rounded-lg border border-dashed" style={{ borderColor: `${widgetConfig.primaryColor}80`, backgroundColor: `${widgetConfig.primaryColor}0D` }}>
-             <h2 className="text-lg sm:text-xl font-bold mb-4 text-center">Das erhalten Sie im Detail:</h2>
-             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-3">
-                {analysisDeliverables.map((item, index) => (
-                  <div key={index} className="flex items-center gap-2">
-                     <item.icon className="w-4 h-4 flex-shrink-0" style={{ color: widgetConfig.primaryColor }} />
-                     <span className="text-sm text-gray-700">{item.text}</span>
-                  </div>
-                ))}
+             <h2 className="text-lg sm:text-xl font-bold mb-4 text-center">Warum überhaupt ein Siegel:</h2>
+             <div className="space-y-4 text-sm text-gray-700">
+               <p>
+                 Unternehmen, die langfristig erfolgreich sein wollen, müssen ihre Stärken und Qualitäten sichtbar und glaubwürdig kommunizieren. Auszeichnungen und Qualitätssiegel spielen hierbei eine entscheidende Rolle. Sie erhöhen die Sichtbarkeit, schaffen Vertrauen bei Mitarbeitern, Kunden sowie Geschäftspartnern und stärken nachhaltig die Wettbewerbsposition und das Unternehmenswachstum.
+               </p>
+               <p>
+                 Laut der aktuellen Studie "Employer Brand Research 2022" von YouGov werden Unternehmen mit anerkannten Qualitätssiegeln von Kunden und potenziellen Bewerbern als deutlich glaubwürdiger, innovativer und attraktiver wahrgenommen. Dies wirkt sich unmittelbar auf das Unternehmensimage aus und hilft insbesondere mittelständische Unternehmen, sich klarer vom Wettbewerb abzugrenzen.
+               </p>
+               <p>
+                 Ein „KI-Pionier"-Siegel hebt speziell die Innovationskraft und technologische Führungsrolle mittelständischer Unternehmen im Bereich Künstliche Intelligenz hervor. Es betont die Attraktivität als zukunftsorientierter Arbeitgeber, erhöht die Glaubwürdigkeit gegenüber Geschäftspartnern und stärkt zugleich die Marke bei bestehenden, sowie potenziellen Kunden.
+               </p>
              </div>
            </section>
 
@@ -377,11 +402,11 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
             style={{ backgroundColor: widgetConfig.primaryColor, ringColor: widgetConfig.primaryColor }}
             aria-label="Analyse starten"
           >
-             Analyse starten
+             KI-Pionier Analyse starten
             <ArrowRight className="w-4 h-4" />
           </button>
           <p className="mt-2 text-xs text-gray-500">
-            Ihre Daten werden ausschließlich für die Analyse und den Versand der Ergebnisse verwendet.
+            Ihre Daten werden ausschließlich für die Analyse und die Siegel-Qualifikation verwendet.
           </p>
         </div>
       </div>
