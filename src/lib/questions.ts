@@ -253,9 +253,10 @@ export const PRESS_RELEASE_STEPS: Step[] = [
 */
       {
         id: "4.6",
-        text: "Beschreiben Sie kurz eine Idee für eine eigene KI-Anwendung, die auf Ihrem spezifischen Wissen oder Ihren Daten aufbauen könnte und einen echten Mehrwert schaffen würde.",
+        text: "(Optional) Beschreiben Sie kurz, falls vorhanden, eine eigene KI-Anwendung, die in Ihrem Unternehmen entwickelt wurde.",
         isMultiline: true,
-        placeholder: "Beschreiben Sie Ihre Idee für eine eigene KI-Anwendung..."
+        placeholder: "Beschreiben Sie...",
+        optional: true
       }
     ]
   },
