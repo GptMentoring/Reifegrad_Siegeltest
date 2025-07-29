@@ -8,7 +8,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
     questions: [
       {
         id: "1.1",
-        text: "Grundverständnis & Potenzialerkennung: Wie bewerten Sie das vorhandene Grundverständnis in Ihrem Unternehmen / Ihrer Tätigkeit über Funktionsweise und konkrete Einsatzmöglichkeiten generativer KI zur Effizienzsteigerung?",
+        text: "Grundverständnis: Wie bewerten Sie das vorhandene Grundverständnis in Ihrem Unternehmen / Ihrer Tätigkeit über Funktionsweise und konkrete Einsatzmöglichkeiten generativer KI zur Effizienzsteigerung?",
         options: ["1", "2", "3", "4", "5"]
       },
       {
