@@ -127,7 +127,8 @@ export const PRESS_RELEASE_STEPS: Step[] = [
         id: "2.7",
         text: "(Optional) Welcher zeitaufwändige Prozess wurde durch den Einsatz eines passenden KI-Tool bei Ihnen im Unternehmen automatisiert?",
         isMultiline: true,
-        placeholder: "Beschreiben Sie..."
+        placeholder: "Beschreiben Sie...",
+        optional: true
       }
     ]
   },
