@@ -42,7 +42,7 @@ export const PRESS_RELEASE_STEPS: Step[] = [
           "d) Kulturelle Hürden: Skepsis, Angst vor Veränderung oder Jobverlust",
           "e) Fehlende strategische Priorisierung durch die Führungsebene"
         ]
-      }
+      },
       
 {/* {
         id: "1.7",
