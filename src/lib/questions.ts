@@ -316,9 +316,10 @@ export const PRESS_RELEASE_STEPS: Step[] = [
       },
       {
         id: "5.8",
-        text: "Welche strategische Anpassung halten Sie für die wichtigste, um auch in 3-5 Jahren von den KI-Entwicklungen profitieren zu können?",
+        text: "(Optional) Welche strategische Anpassung halten Sie für die wichtigste, um auch in 3-5 Jahren von den KI-Entwicklungen profitieren zu können?",
         isMultiline: true,
-        placeholder: "Beschreiben Sie die wichtigsten strategischen Anpassungen für die Zukunft..."
+        placeholder: "Beschreiben Sie...",
+        optional: true
       }
     ]
   }
