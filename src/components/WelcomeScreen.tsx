@@ -101,7 +101,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
     <div className="relative z-10 max-w-4xl mx-auto">
       {/* Header with Logo and Title in white container */}
       <div className="bg-white rounded-xl p-3 sm:p-6 shadow-lg mb-4">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6 text-center sm:text-left">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6 text-center sm:text-left relative">
           {/* Linker Teil: 2bAHEAD Logo + Text */}
           <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left flex-grow">
             <img 
@@ -119,11 +119,17 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
             </div>
           </div>
 
-          {/* Rechter Teil: Zusätzliche Bild */}
+          {/* Rechter Teil: Siegel - größer und überlappend */}
           <img 
             src="/PionierSiegel.png" 
             alt="KI-Pionier Logo" 
-            className="h-20 sm:h-20 lg:h-24 w-auto"
+            className="h-32 sm:h-36 lg:h-40 w-auto relative z-10 transform rotate-12 drop-shadow-lg"
+            style={{
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))',
+              marginRight: '-20px',
+              marginTop: '-10px',
+              marginBottom: '-10px'
+            }}
           />
         </div>
       </div>
