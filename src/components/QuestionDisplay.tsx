@@ -298,19 +298,6 @@ export function QuestionDisplay({
               />
             )}
 
-            {textInput.trim() || question.optional && (
-              <button
-                onClick={handleTextSubmit}
-                className="w-full mt-4 p-4 rounded-xl text-white font-medium
-                           transition-all transform hover:shadow-lg hover:scale-[1.01]
-                           active:scale-[0.98] flex items-center justify-center gap-2"
-                style={{ backgroundColor: widgetConfig.primaryColor }}
-                disabled={isLoading}
-              >
-                <Activity className="w-4 h-4" />
-                Antwort senden
-              </button>
-            )}
             {(textInput.trim() || question.optional) && (
               <button
                 onClick={handleTextSubmit}
