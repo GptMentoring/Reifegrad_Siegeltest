@@ -252,18 +252,49 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
            </section>
 
            {/* "Warum überhaupt ein Siegel" Section */}
-           <section className="p-4 rounded-lg border border-dashed" style={{ borderColor: `${widgetConfig.primaryColor}80`, backgroundColor: `${widgetConfig.primaryColor}0D` }}>
-             <h2 className="text-lg sm:text-xl font-bold mb-4 text-center">Warum überhaupt ein Siegel:</h2>
-             <div className="space-y-4 text-sm text-gray-700">
+           <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 shadow-sm">
+             {/* Decorative background elements */}
+             <div className="absolute top-0 right-0 w-32 h-32 opacity-5" style={{ backgroundColor: widgetConfig.primaryColor }}>
+               <div className="w-full h-full rounded-full transform translate-x-16 -translate-y-16"></div>
+             </div>
+             <div className="absolute bottom-0 left-0 w-24 h-24 opacity-5" style={{ backgroundColor: widgetConfig.primaryColor }}>
+               <div className="w-full h-full rounded-full transform -translate-x-12 translate-y-12"></div>
+             </div>
+             
+             <div className="relative z-10 p-6 sm:p-8">
+               <div className="flex items-center justify-center gap-3 mb-6">
+                 <div 
+                   className="w-8 h-1 rounded-full"
+                   style={{ backgroundColor: widgetConfig.primaryColor }}
+                 ></div>
+                 <h2 className="text-lg sm:text-xl font-bold text-center" style={{ color: widgetConfig.primaryColor }}>
+                   Warum überhaupt ein Siegel
+                 </h2>
+                 <div 
+                   className="w-8 h-1 rounded-full"
+                   style={{ backgroundColor: widgetConfig.primaryColor }}
+                 ></div>
+               </div>
+               
+               <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
                <p>
                  Unternehmen, die langfristig erfolgreich sein wollen, müssen ihre Stärken und Qualitäten sichtbar und glaubwürdig kommunizieren. Auszeichnungen und Qualitätssiegel spielen hierbei eine entscheidende Rolle. Sie erhöhen die Sichtbarkeit, schaffen Vertrauen bei Mitarbeitern, Kunden sowie Geschäftspartnern und stärken nachhaltig die Wettbewerbsposition und das Unternehmenswachstum.
                </p>
+               
+               <div className="flex items-start gap-4 p-4 rounded-lg bg-white border border-gray-100 shadow-sm">
+                 <div 
+                   className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                   style={{ backgroundColor: widgetConfig.primaryColor }}
+                 ></div>
                <p>
                  Laut der aktuellen Studie "Employer Brand Research 2022" von YouGov werden Unternehmen mit anerkannten Qualitätssiegeln von Kunden und potenziellen Bewerbern als deutlich glaubwürdiger, innovativer und attraktiver wahrgenommen. Dies wirkt sich unmittelbar auf das Unternehmensimage aus und hilft insbesondere mittelständische Unternehmen, sich klarer vom Wettbewerb abzugrenzen.
                </p>
+               </div>
+               
                <p>
                  Ein „KI-Pionier"-Siegel hebt speziell die Innovationskraft und technologische Führungsrolle mittelständischer Unternehmen im Bereich Künstliche Intelligenz hervor. Es betont die Attraktivität als zukunftsorientierter Arbeitgeber, erhöht die Glaubwürdigkeit gegenüber Geschäftspartnern und stärkt zugleich die Marke bei bestehenden, sowie potenziellen Kunden.
                </p>
+             </div>
              </div>
            </section>
 
