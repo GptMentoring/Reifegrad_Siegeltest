@@ -124,7 +124,7 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
             <img 
               src="/PionierSiegel.png" 
               alt="KI-Pionier Logo" 
-              className="w-52 h-52 sm:w-64 sm:h-64 lg:w-72 lg:h-72 relative z-20 transform drop-shadow-xl object-contain"
+              className="h-40 sm:h-48 lg:h-56 w-auto relative z-20 transform rotate-12 drop-shadow-xl"
               style={{
                 filter: 'drop-shadow(0 6px 12px rgba(0, 0, 0, 0.25))',
                 marginRight: '-60px',
