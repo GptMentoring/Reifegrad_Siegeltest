@@ -120,19 +120,17 @@ export function WelcomeScreen({ onStart, widgetConfig }: WelcomeScreenProps) {
           </div>
 
           {/* Rechter Teil: Siegel - größer und überlappend */}
-          <div className="relative">
-            <img 
-              src="/PionierSiegel.png" 
-              alt="KI-Pionier Logo" 
-              className="h-40 sm:h-48 lg:h-56 w-auto relative z-20 transform rotate-12 drop-shadow-xl"
-              style={{
-                filter: 'drop-shadow(0 6px 12px rgba(0, 0, 0, 0.25))',
-                marginRight: '-60px',
-                marginTop: '-30px',
-                marginBottom: '-30px'
-              }}
-            />
-          </div>
+          <img 
+            src="/PionierSiegel.png" 
+            alt="KI-Pionier Logo" 
+            className="h-32 sm:h-36 lg:h-40 w-auto relative z-10 transform rotate-12 drop-shadow-lg"
+            style={{
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))',
+              marginRight: '-20px',
+              marginTop: '-10px',
+              marginBottom: '-10px'
+            }}
+          />
         </div>
       </div>
     </div>
