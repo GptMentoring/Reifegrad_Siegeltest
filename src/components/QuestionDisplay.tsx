@@ -269,6 +269,7 @@ export function QuestionDisplay({
                 ref={textareaRef}
                 value={textInput}
                 onChange={(e) => setTextInput(e.target.value)}
+                onBlur={handleTextSubmit} // Submit on blur
                 className="w-full p-4 rounded-xl border-2 focus:outline-none focus:ring-2 focus:ring-opacity-50 min-h-[120px] resize-none transition-all duration-800 ease-in-out hover:shadow-lg"
                 style={{
                   // Use a slightly darker shade for filled state if needed
