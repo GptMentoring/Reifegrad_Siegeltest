@@ -110,7 +110,7 @@ export async function sendAnalysisWebhook(
     console.log('Sending webhook payload with user info:', payload);
 
     // Send to Make.com webhook
-    const response = await fetch('https://hook.eu2.make.com/kjzjjz92m91xksswor78mtfukjkrh24c', {
+    const response = await fetch('https://hook.eu2.make.com/ncztdvy9lnpjq4riw7ixhjrh87oyukcw', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
